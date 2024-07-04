@@ -19,11 +19,13 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "incremental": true,
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@assets/*": ["assets/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "my-app/src/styles", "my-app/src/index.tsx", "my-app/src/App.tsx"],
   "exclude": ["node_modules", "build", "public"]
 }
