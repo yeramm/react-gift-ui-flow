@@ -1,7 +1,7 @@
-import './styles'; // 상대 경로로 수정
+import './styles'; 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'; // 상대 경로로 수정
+import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
